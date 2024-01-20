@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background-image: url(../public/img/header2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.carrito-productos {
+    height: 30rem;
+}
+
+.carrito {
+    opacity: 0;
+    transition: .2s;
+}
+
+.animandoCarrito{
+    opacity: 100;
+}
+
+.transition-colors {
+    transition-property: background-color;
+}
+
